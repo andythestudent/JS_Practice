@@ -19,20 +19,20 @@ alert("Und du bist ungefähr " + alter*365.25 + " Tage alt. Das ist ganz schön 
 console.log();
 
 
-// var age = prompt("Wie alt bist du?");
-// var days = age + 2;
-// alert("You are not " + days);
-// var age = Number(prompt("What is your age", ""));
+var age = Number(prompt("Wie alt bist du?"));
+var days = age + 2;
+alert("Du bist also nicht " + days + " Jahre alt?");
+var age2 = Number(prompt("Wie alt bist du wirklich?", ""));
 
-// if(age<0){
-//     console.log("Error");
-// }
-// if(age===21){
-//     console.log("Happy 21st Birthday!");
-// }
-// if((age % 2) !=0){
-//     console.log("your age is odd");
-// }
-// if(age % Math.sqrt(age)===0){
-//     console.log("Your a perfect square");
-// }
+if(age2<0){
+    alert("Error");
+}
+if(age2===21){
+    alert("Happy 21st Birthday!");
+}
+if((age2 % 2) !=0){
+    alert("your age is odd");
+}
+if(age2 % Math.sqrt(age2)===0){
+    alert("Your a perfect square");
+}
